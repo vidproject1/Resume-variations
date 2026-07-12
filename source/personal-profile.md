@@ -18,11 +18,15 @@ Charles is primarily targeting roles focused on building software products and a
 - AI Automation Engineer
 - RAG or Agent Engineer
 
-## LLM Project Experience
+## LLM and AI-Assisted Development Experience
 
 - Charles has built multiple projects using LLMs.
 - Some of these projects were built for clients.
-- Project names, responsibilities, technologies, model providers, outcomes, and client-safe descriptions still need to be documented.
+- Charles also uses AI-assisted software-development tools to build conventional applications that do not necessarily contain an LLM feature.
+- Charles has used **TRAE IDE**, an AI coding environment with access to multiple model providers and support for additional API connections.
+- Charles connected and used **Claude 4.6** through an API in TRAE while developing Only Pips Journal.
+- Whether the Claude model was Sonnet 4.6 or Opus 4.6 still needs confirmation.
+- Additional project names, responsibilities, technologies, model providers, outcomes, and client-safe descriptions still need to be documented.
 
 ## Products
 
@@ -37,7 +41,9 @@ Charles is primarily targeting roles focused on building software products and a
 - **Product description:** Trading journal and analytics platform for recording trades, managing multiple trading accounts, reviewing performance, following growth plans, and using strategy execution checklists.
 - **Verified feature areas:** Authentication, account management, trade logging, screenshot uploads, real-time dashboards, analytics, performance reports, growth plans, strategy checklists, checklist marketplace, payment approval administration, public blog, and strategy backtest publishing.
 - **Verified technology stack:** React, TypeScript, Vite, React Router, Tailwind CSS, shadcn/ui, Radix UI, TanStack Query, React Hook Form, Zod, Recharts, Lightweight Charts, Supabase, PostgreSQL, Supabase Auth, Supabase Storage, Supabase real-time subscriptions, and Vercel Web Analytics.
-- **LLM status:** No in-product LLM integration was verified in the current codebase. Use of LLMs during development is pending confirmation.
+- **LLM status:** No in-product LLM integration is present in the verified codebase.
+- **Development workflow:** Charles used TRAE IDE with a Claude 4.6 API connection as an AI-assisted environment while building the application.
+- **Important wording rule:** Do not describe Only Pips Journal as an AI-powered product. Describe it as a SaaS product built with an AI-assisted development workflow.
 - **Detailed project record:** `source/projects-bank.md`
 - **Users, revenue, traction, or measurable outcomes:** To document
 
@@ -100,3 +106,4 @@ For each project:
 - Keep confidential client details anonymous unless Charles confirms they may be disclosed.
 - Prefer measurable outcomes over vague claims once supporting information is available.
 - Do not label a project as AI-powered merely because LLMs were used to help build it; distinguish product AI features from LLM-assisted development.
+- Do not describe a model connected to an AI coding tool as though it were integrated into the finished application.
