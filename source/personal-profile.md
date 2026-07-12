@@ -29,14 +29,23 @@ Charles is primarily targeting roles focused on building software products and a
 ### Only Pips Journal
 
 - **Product name:** Only Pips Journal
-- **Type:** Working SaaS product
+- **Type:** Live vertical SaaS product for forex traders
+- **Creator/developer:** Charles Kudzai Muguti
 - **Website:** https://onlypipsjournal.pro
+- **Repository:** https://github.com/vidproject1/onlypips-journal
 - **Current status:** Live/working, based on information provided by Charles
-- **Charles's exact role:** To confirm
-- **Product description:** To document
-- **LLM features:** To document
-- **Technology stack:** To document
+- **Product description:** Trading journal and analytics platform for recording trades, managing multiple trading accounts, reviewing performance, following growth plans, and using strategy execution checklists.
+- **Verified feature areas:** Authentication, account management, trade logging, screenshot uploads, real-time dashboards, analytics, performance reports, growth plans, strategy checklists, checklist marketplace, payment approval administration, public blog, and strategy backtest publishing.
+- **Verified technology stack:** React, TypeScript, Vite, React Router, Tailwind CSS, shadcn/ui, Radix UI, TanStack Query, React Hook Form, Zod, Recharts, Lightweight Charts, Supabase, PostgreSQL, Supabase Auth, Supabase Storage, Supabase real-time subscriptions, and Vercel Web Analytics.
+- **LLM status:** No in-product LLM integration was verified in the current codebase. Use of LLMs during development is pending confirmation.
+- **Detailed project record:** `source/projects-bank.md`
 - **Users, revenue, traction, or measurable outcomes:** To document
+
+## Public Profiles
+
+- **GitHub:** https://github.com/vidproject1
+- **LinkedIn:** To provide
+- **Portfolio:** To provide
 
 ## Information Still Needed
 
@@ -46,7 +55,6 @@ Charles is primarily targeting roles focused on building software products and a
 - Phone number
 - City and country
 - LinkedIn profile
-- GitHub profile
 - Portfolio website
 
 ### Education
@@ -91,3 +99,4 @@ For each project:
 - Mark uncertain information as pending confirmation.
 - Keep confidential client details anonymous unless Charles confirms they may be disclosed.
 - Prefer measurable outcomes over vague claims once supporting information is available.
+- Do not label a project as AI-powered merely because LLMs were used to help build it; distinguish product AI features from LLM-assisted development.
