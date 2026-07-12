@@ -85,23 +85,26 @@ Only Pips Journal is a web-based trading journal and analytics platform that hel
 - Implemented a marketplace fulfillment workflow that converts approved purchases into user-accessible strategy data.
 - Maintained a public content surface alongside the authenticated SaaS application.
 
-### LLM / AI Status
+### AI-Assisted Development Workflow
 
-- No in-product OpenAI, Anthropic, Gemini, chat-completions, or comparable model integration was verified in the current repository.
-- The inspected dependency list contains no dedicated LLM provider SDK.
-- Whether Charles used LLMs as part of the design, coding, debugging, or product-development workflow is **pending confirmation**.
-- Do not describe Only Pips Journal as an AI-powered product unless an actual model feature is added or separately verified.
-- Once confirmed, it may be described as a substantial SaaS product built using an LLM-assisted software-development workflow, with the exact tools and process named truthfully.
+- Only Pips Journal does **not** contain an in-product LLM feature.
+- No OpenAI, Anthropic, Gemini, GLM, chat-completions, or comparable model integration was verified in the deployed application code.
+- Charles used **TRAE IDE** as an AI-assisted software-development environment while building the application.
+- Charles reports that TRAE provided access to models from multiple providers, including ChatGPT/OpenAI, Gemini, and GLM, and supported connecting additional model APIs.
+- Charles connected and used **Claude 4.6** through an API while developing the application.
+- The exact Claude 4.6 variant, Sonnet or Opus, still needs confirmation.
+- The confirmed distinction is: AI was used to help design and build the software; AI is not currently a feature delivered to the application's users.
 
 ### Resume-Safe Summary Draft
 
-Creator and developer of Only Pips Journal, a live forex trading SaaS platform with multi-account trade logging, real-time analytics, performance reporting, growth planning, strategy checklists, marketplace fulfillment, administrative payment review, public content, and backtest publishing.
+Creator and developer of Only Pips Journal, a live forex trading SaaS platform with multi-account trade logging, real-time analytics, performance reporting, growth planning, strategy checklists, marketplace fulfillment, administrative payment review, public content, and backtest publishing. Used TRAE IDE with a Claude 4.6 API connection as an AI-assisted development environment.
 
 ### Candidate Resume Bullets
 
 These bullets are usable after Charles confirms his exact ownership and contribution level:
 
 - Built and launched a full-stack forex trading journal SaaS using React, TypeScript, Supabase, PostgreSQL, and Vercel-oriented tooling.
+- Used TRAE IDE with a Claude 4.6 API connection to support AI-assisted application design, implementation, debugging, and iteration; exact workflow details still need confirmation.
 - Implemented multi-account trade logging, screenshot uploads, real-time dashboard updates, and analytics across charts, heatmaps, monthly recaps, and performance reports.
 - Developed authenticated customer workflows and administrative tools for paid checklist purchases, payment-evidence review, approval, and automatic content provisioning.
 - Created rule-based trading performance analysis covering strategy win rates, execution consistency, trade frequency, holding duration, and generated user insights.
@@ -113,8 +116,9 @@ These bullets are usable after Charles confirms his exact ownership and contribu
 - Whether the project was built alone or with collaborators.
 - Start date, launch date, and ongoing maintenance dates.
 - Which features Charles personally designed and implemented.
-- Which LLM tools and models were used during development.
-- How LLMs were used: architecture, code generation, debugging, database design, testing, content, or other work.
+- Whether Claude Sonnet 4.6 or Claude Opus 4.6 was used.
+- How AI assistance was used in practice: requirements, architecture, code generation, refactoring, debugging, database design, testing, deployment, content, or other work.
+- Which other TRAE-provided models Charles personally used on this project, rather than merely having access to them.
 - Number of registered users and active users.
 - Revenue, subscriptions, marketplace sales, or other commercial traction.
 - Number of recorded trades, uploaded screenshots, strategies, plans, or blog readers.
@@ -126,3 +130,4 @@ These bullets are usable after Charles confirms his exact ownership and contribu
 
 - The repository README mentions a market predictor and notification system, but those features were not fully verified in the current routed application during this inspection. Do not include them in a resume until their current implementation is confirmed.
 - The performance-report system is rule-based TypeScript analysis, not an LLM feature.
+- Do not phrase the Claude API connection as an application integration. It belonged to the development environment, not the user-facing SaaS product.
