@@ -30,6 +30,17 @@ Charles is primarily targeting roles focused on building software products and a
 - Because models changed during the project, the complete model list and exact chronology should not be presented as certain.
 - Additional project names, responsibilities, technologies, model providers, outcomes, and client-safe descriptions still need to be documented.
 
+## AI Harness and Model Operations
+
+- Charles describes himself as provider-agnostic and able to adapt across different AI coding harnesses and agentic development tools.
+- Self-reported harness experience includes Claude Code, OpenAI Codex CLI, Google Antigravity, Kimi Code/Kimi CLI, OpenCode, TRAE IDE, and other proprietary or open-source terminal-based agents.
+- Charles can switch between subscription-based tools, direct model APIs, unified model-routing services, and locally downloaded open-weight models.
+- Charles uses **OpenRouter** when useful for accessing alternative model providers and price points.
+- Charles can run downloaded open-weight models locally when cost, privacy, availability, or control makes local inference preferable.
+- Cost-aware model selection is part of his workflow: lower-cost or local models may be used for routine work, while more capable commercial models are reserved for tasks that require them.
+- Resume wording should emphasize rapid adaptation, provider independence, agentic CLI workflows, and cost-aware model selection rather than claiming literal mastery of every AI harness.
+- **Detailed skills record:** `source/skills-inventory.md`
+
 ## Products
 
 ### Only Pips Journal
@@ -101,6 +112,14 @@ For each project:
 - Live URL and repository URL
 - Usage, revenue, time saved, accuracy, conversion, or other measurable result
 
+### AI Workflow Evidence
+
+- Examples of projects completed with Claude Code, Codex CLI, Antigravity, Kimi Code, or OpenCode
+- Local inference runtime, hardware, and open-weight models used
+- A documented case where provider or harness switching reduced cost or improved results
+- Specific use of MCP, skills, hooks, subagents, custom instructions, or agent configuration files
+- How AI-generated code was tested, reviewed, and corrected
+
 ## Accuracy Rules
 
 - Do not invent employers, clients, metrics, technologies, responsibilities, or dates.
@@ -110,3 +129,5 @@ For each project:
 - Do not label a project as AI-powered merely because LLMs were used to help build it; distinguish product AI features from LLM-assisted development.
 - Do not describe a model connected to an AI coding tool as though it were integrated into the finished application.
 - Use broad model-family language when exact historical model variants cannot be reconstructed reliably.
+- Treat harness proficiency as self-reported until supported by project examples or repository evidence.
+- Use "open-weight" rather than "open source" for a model unless its specific licence supports the stronger term.
