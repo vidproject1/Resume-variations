@@ -89,22 +89,23 @@ Only Pips Journal is a web-based trading journal and analytics platform that hel
 
 - Only Pips Journal does **not** contain an in-product LLM feature.
 - No OpenAI, Anthropic, Gemini, GLM, chat-completions, or comparable model integration was verified in the deployed application code.
-- Charles used **TRAE IDE** as an AI-assisted software-development environment while building the application.
+- Charles used **TRAE IDE** as an AI-assisted software-development environment while building the application over multiple months.
 - Charles reports that TRAE provided access to models from multiple providers, including ChatGPT/OpenAI, Gemini, and GLM, and supported connecting additional model APIs.
-- Charles connected and used **Claude 4.6** through an API while developing the application.
-- The exact Claude 4.6 variant, Sonnet or Opus, still needs confirmation.
+- Charles used both **Claude Sonnet 4.6** and **Claude Opus 4.6** through API connections during development.
+- Earlier in the project, Charles likely used one or more **GPT-4-family** models. The exact GPT model names and versions were not retained and should not be stated more precisely.
+- Because the project spanned multiple months and available models changed during development, the complete model list and exact usage chronology cannot be reconstructed reliably.
 - The confirmed distinction is: AI was used to help design and build the software; AI is not currently a feature delivered to the application's users.
 
 ### Resume-Safe Summary Draft
 
-Creator and developer of Only Pips Journal, a live forex trading SaaS platform with multi-account trade logging, real-time analytics, performance reporting, growth planning, strategy checklists, marketplace fulfillment, administrative payment review, public content, and backtest publishing. Used TRAE IDE with a Claude 4.6 API connection as an AI-assisted development environment.
+Creator and developer of Only Pips Journal, a live forex trading SaaS platform with multi-account trade logging, real-time analytics, performance reporting, growth planning, strategy checklists, marketplace fulfillment, administrative payment review, public content, and backtest publishing. Used TRAE IDE with multiple LLMs, including Claude Sonnet 4.6, Claude Opus 4.6, and GPT-4-family models, as an AI-assisted development environment.
 
 ### Candidate Resume Bullets
 
 These bullets are usable after Charles confirms his exact ownership and contribution level:
 
 - Built and launched a full-stack forex trading journal SaaS using React, TypeScript, Supabase, PostgreSQL, and Vercel-oriented tooling.
-- Used TRAE IDE with a Claude 4.6 API connection to support AI-assisted application design, implementation, debugging, and iteration; exact workflow details still need confirmation.
+- Used TRAE IDE with multiple LLMs, including Claude Sonnet 4.6, Claude Opus 4.6, and GPT-4-family models, to support AI-assisted application design, implementation, debugging, and iteration.
 - Implemented multi-account trade logging, screenshot uploads, real-time dashboard updates, and analytics across charts, heatmaps, monthly recaps, and performance reports.
 - Developed authenticated customer workflows and administrative tools for paid checklist purchases, payment-evidence review, approval, and automatic content provisioning.
 - Created rule-based trading performance analysis covering strategy win rates, execution consistency, trade frequency, holding duration, and generated user insights.
@@ -116,9 +117,8 @@ These bullets are usable after Charles confirms his exact ownership and contribu
 - Whether the project was built alone or with collaborators.
 - Start date, launch date, and ongoing maintenance dates.
 - Which features Charles personally designed and implemented.
-- Whether Claude Sonnet 4.6 or Claude Opus 4.6 was used.
 - How AI assistance was used in practice: requirements, architecture, code generation, refactoring, debugging, database design, testing, deployment, content, or other work.
-- Which other TRAE-provided models Charles personally used on this project, rather than merely having access to them.
+- Which Gemini, GLM, OpenAI, or other models Charles personally used on this project, rather than merely having access to them.
 - Number of registered users and active users.
 - Revenue, subscriptions, marketplace sales, or other commercial traction.
 - Number of recorded trades, uploaded screenshots, strategies, plans, or blog readers.
@@ -130,4 +130,5 @@ These bullets are usable after Charles confirms his exact ownership and contribu
 
 - The repository README mentions a market predictor and notification system, but those features were not fully verified in the current routed application during this inspection. Do not include them in a resume until their current implementation is confirmed.
 - The performance-report system is rule-based TypeScript analysis, not an LLM feature.
-- Do not phrase the Claude API connection as an application integration. It belonged to the development environment, not the user-facing SaaS product.
+- Do not phrase any model connection as an application integration. The models belonged to the development environment, not the user-facing SaaS product.
+- Do not invent an exact GPT model version or a complete chronological model list when Charles no longer has reliable records of them.
